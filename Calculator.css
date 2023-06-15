@@ -1,0 +1,164 @@
+body{
+    width: 100%;
+    height: 120vh;
+    background-color: #E5E5CB;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family:'Lucida Sans Regular'; 
+    text-align: center;
+    margin-top: 1.5rem;
+    text-shadow: 5px 5px 1px lightgray;
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family:'Lucida Sans Regular'; 
+    text-align: center;
+    margin-top: -1rem;
+}
+.text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family:'Lucida Sans Regular'; 
+    text-align: left;
+    margin-top: 1rem; 
+    margin-left: 35rem;
+    position: absolute;
+    line-height: 2.5rem;
+}
+
+.container{
+    width: 18rem;
+    height: 29rem;
+    border-radius: 1rem;
+    position: absolute;
+    background-color: rgb(21, 22, 22);
+    padding: 3rem;
+    margin: 1em;
+    opacity: 0.9;
+    margin-left: 5rem;
+    display: inline-block;
+}
+.buttons{
+    display: flex;
+    margin: 0.5rem;
+    flex-direction: column;
+    float: left;
+    padding-top: 2rem;
+    margin-left: -1.4rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 26rem;
+}
+.operators{
+    float: right;
+    background-color: aliceblue;
+    border-radius: 5rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    text-align: center;
+    margin: 0.5rem;
+    border: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family:'Lucida Sans Regular';
+    cursor: pointer;
+   
+}
+
+.operators:hover{
+    background-color: darkgray;
+}
+.operators1{
+    float: right;
+    background-color: orange;
+    border-radius: 5rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    text-align: center;
+    margin: 0.5rem;
+    border: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family:'Lucida Sans Regular';
+    cursor: pointer;
+}
+.operators1:hover, .operators2:hover{
+    background-color: rgb(243, 109, 0);
+}
+#calc{
+    width: 18rem;
+    height: 2rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: -1rem;
+    display: block;
+    border: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family:'Lucida Sans Regular';
+    cursor: pointer;
+    color: black;
+}
+.operators2{
+    float: right;
+    background-color: orangered;
+    border-radius: 5rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    text-align: center;
+    margin: 0.5rem;
+    border: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family:'Lucida Sans Regular';
+}
+
+    @media only screen and (max-width : 450px)  {
+        .container{
+            width: 10rem;
+            height: 20rem;
+        }
+        .operators, .operators1, .operators2{
+            width: 2.5rem;
+            height: 2.5rem;
+            border: 2rem;
+            font-size: 0.9rem;
+            margin: 0.38rem;
+        }
+        .buttons{
+            height: 18rem;
+        }
+        #calc{
+            width: 10rem;
+            height: 1.5rem;
+            font-size: 1rem;
+        }
+        .text{
+            font-size: 1.2rem;
+        }
+        h5{
+            font-size: 1.2rem;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+        
+    }
+    @media only screen and (max-width : 875px){
+        .text{
+            margin-left: 32rem;
+        }
+    }
+    @media only screen and (max-width : 800px){
+        .text{
+            margin-left: 3rem;
+            position: relative;
+
+        }
+    }
+    
